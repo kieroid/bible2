@@ -19,7 +19,7 @@ private:
 
         glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
         glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
-        GLFWwindow* window = glfwCreateWindow(800, 600, "Vulkan", nullptr, nullptr);
+        GLFWwindow* window = glfwCreateWindow(1920, 1080, "你好中国，我填满了你的屏幕", nullptr, nullptr);
 
         VkApplicationInfo appInfo{};
         appInfo.sType = VK_STRUCTURE_TYPE_APPLICATION_INFO;
